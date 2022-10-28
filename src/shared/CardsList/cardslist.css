@@ -1,0 +1,22 @@
+@media all and (min-width: 1024px) {
+	.cardsList {
+		padding: 40px 0;
+	}
+}
+
+.loadMore {
+	display: block;
+	margin: 0 auto;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border-radius: 7px;
+	background-color: rgb(235, 235, 235);
+}
+
+.loadMore:hover {
+	background-color: rgb(216, 216, 216);
+	font-weight: bold;
+	color: rgb(71, 71, 71);
+	;
+}

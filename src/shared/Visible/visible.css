@@ -1,0 +1,17 @@
+@media all and (min-width: 320px) and (max-width: 1024px) {
+   .decktop {
+      display: none;
+   }
+}
+
+@media all and (min-width: 1540px) {
+   .mobile {
+      display: none;
+   }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1539px) {
+   .tablet {
+      display: none;
+   }
+}

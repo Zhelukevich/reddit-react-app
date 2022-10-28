@@ -1,0 +1,49 @@
+.menu {
+	position: absolute;
+	top: 17px;
+	right: 15px;
+	padding: 0;
+}
+
+.menuButton {
+	width: 31px;
+	height: 31px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: rotate(90deg);
+	border-radius: 31px;
+}
+
+.menuButton:active {
+	background-color: rgba(51, 51, 51, 0.1);
+}
+
+
+@media all and (min-width: 1024px) {
+	.menuButton {
+		align-self: center;
+		transform: unset;
+	}
+
+}
+
+@media all and (min-width: 1540px) {
+	.menuButton:hover {
+		background-color: rgba(51, 51, 51, 0.1);
+	}
+}
+
+@media all and (min-width: 1024px) {
+	.menu {
+		position: relative;
+		order: 2;
+		display: flex;
+		align-items: center;
+		flex: 0 0;
+		top: unset;
+		right: unset;
+		margin: 0 0 0 auto;
+	}
+
+}

@@ -1,0 +1,33 @@
+.comment {
+	display: flex;
+	/* margin-right: 29px; */
+}
+
+.comment:not(:last-child) {
+	margin-bottom: 37px;
+}
+
+.arrows {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-right: 21px;
+}
+
+.arrows svg {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.arrows span {
+	display: flex;
+	width: 3px;
+	height: 100%;
+	background: #D9D9D9;
+}
+
+.commentInfo {
+	padding-top: 5px;
+	display: flex;
+	flex-direction: column;
+}

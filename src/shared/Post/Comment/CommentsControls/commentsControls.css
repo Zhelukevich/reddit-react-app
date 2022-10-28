@@ -1,0 +1,26 @@
+.controls {
+	display: flex;
+}
+
+.controls:not(:last-child) {
+	margin-bottom: 33px;
+}
+
+.controls__list:not(:last-child) {
+	margin-right: 27px;
+}
+
+.controls__btn {
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #999999;
+}
+
+.controls__btn svg {
+	margin-right: 5px;
+}

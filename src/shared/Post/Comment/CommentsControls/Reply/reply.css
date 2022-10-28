@@ -1,0 +1,57 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;
+}
+
+.input:focus {
+	border-bottom: 1px solid #111;
+}
+
+.input {
+	min-height: 20px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 5px;
+
+	box-sizing: border-box;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #999999;
+	resize: none;
+}
+
+.input[aria-invalid] {
+	border-color: red;
+}
+
+.blockBtn {
+	align-self: flex-end;
+}
+
+.button {
+	width: 110px;
+	height: 25px;
+	background: #CC6633;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.button:not(:last-child) {
+	margin-right: 5px;
+}
+
+.button:disabled {
+	opacity: 0.5;
+	cursor: default;
+}

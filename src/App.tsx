@@ -21,7 +21,6 @@ const store = createStore(rootReducer, composeWithDevTools(
 	applyMiddleware(thunk),
 ));
 
-
 function AppWrap() {
 	const [mounted, setMounted] = useState(false);
 	const { userId } = useParams();
@@ -51,7 +50,6 @@ function AppWrap() {
 											<Post />
 										</>
 									} />
-
 									<Route path='/error404' element={<NoMatch />} />
 									<Route
 										path='auth'
@@ -66,7 +64,6 @@ function AppWrap() {
 										element={<Navigate to='/error404' replace />}
 									/>
 								</Routes>
-
 							</Content>
 						</Layout>
 					</PostsContextProvider>

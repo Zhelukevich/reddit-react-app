@@ -4,12 +4,13 @@
 	"description": "This is a training app for skillbox react course",
 	"main": "webpack.config.js",
 	"engines": {
-		"node": "16.x"
+		"node": "18.x",
+		"npm": "8.x"
 	},
 	"scripts": {
 		"build:dev": "cross-env NODE_ENV=development webpack --config webpack.config.js",
-		"build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
-		"dev": "cross-env NODE_ENV=development CLIENT_ID=0dlKD2Rc1lKBuNUvRH731Q node ./bin/dev.js",
+		"build": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack.config.js",
+		"dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development CLIENT_ID=0dlKD2Rc1lKBuNUvRH731Q node ./bin/dev.js",
 		"test": "jest",
 		"start": "node ./dist/server/server.js"
 	},
@@ -34,7 +35,7 @@
 		"@types/classnames": "^2.3.1",
 		"@types/enzyme": "^3.10.12",
 		"@types/jest": "^29.0.3",
-		"@types/node": "^16.0.0",
+		"@types/node": "^18.11.7",
 		"@types/react": "^17.0.0",
 		"@types/react-dom": "^17.0.0",
 		"@types/react-router-dom": "^5.3.3",

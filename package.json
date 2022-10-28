@@ -8,8 +8,8 @@
 		"npm": "8.x"
 	},
 	"scripts": {
-		"build:dev": "cross-env NODE_ENV=development webpack --config webpack.config.js",
-		"build": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack.config.js",
+		"build:dev": "cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack.config.js",
+		"build": "cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack.config.js",
 		"dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development CLIENT_ID=0dlKD2Rc1lKBuNUvRH731Q node ./bin/dev.js",
 		"test": "jest",
 		"start": "node ./dist/server/server.js"

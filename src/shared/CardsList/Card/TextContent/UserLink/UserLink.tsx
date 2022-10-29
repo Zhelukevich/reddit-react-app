@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './userlink.css';
+import styles from './userLink.css';
 
 interface IUserLinkProps {
 	author: string;

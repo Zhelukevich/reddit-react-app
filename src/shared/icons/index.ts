@@ -4,4 +4,4 @@ export * from './ComplainIcon';
 export * from './ShareIcon';
 export * from './CommentIcon';
 export * from './Saveicon';
-export * from './iconAnon';
+export * from './IconAnon'

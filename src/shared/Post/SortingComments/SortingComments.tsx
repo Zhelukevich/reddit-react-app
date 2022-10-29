@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './sortingComments.css'
+import styles from './sortingcomments.css'
 
 export function SortingComments() {
 	return (

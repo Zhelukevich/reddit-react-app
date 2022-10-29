@@ -38,7 +38,7 @@ export function usePostData() {
 				.then((resp) => {
 					{
 						const posts: IPostData[] = [];
-						console.log(resp);
+						// console.log(resp);
 						resp.data.data.children.forEach((post: any) => {
 							const postData: IPostData = post.data;
 

@@ -8,11 +8,11 @@
 		"npm": "8.x"
 	},
 	"scripts": {
-		"build:dev": "cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack.config.js",
-		"build": "cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack.config.js",
-		"dev": "cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider  CLIENT_ID=0dlKD2Rc1lKBuNUvRH731Q SECRET=jGjKQG-kJlwGXFbJPxdME_TETwoBMQ node ./bin/dev.js",
+		"build:dev": "cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider  webpack --config webpack.config.js",
+		"build": "cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider  webpack --config webpack.config.js",
+		"dev": "cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider CLIENT_ID=0dlKD2Rc1lKBuNUvRH731Q SECRET=jGjKQG-kJlwGXFbJPxdME_TETwoBMQ node ./bin/dev.js",
 		"test": "jest",
-		"start": "cross-env  CLIENT_ID=krrNlKifoMUV4wux69CMJA SECRET=rFYck_Ma56eNXyU-In6wbrh0EAuNBQ node ./dist/server/server.js"
+		"start": "cross-env CLIENT_ID=krrNlKifoMUV4wux69CMJA SECRET=rFYck_Ma56eNXyU-In6wbrh0EAuNBQ node ./dist/server/server.js"
 	},
 	"author": "Zhelukevich",
 	"license": "ISC",

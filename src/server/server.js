@@ -12,9 +12,11 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(compression());
+
 app.use(helmet({
 	contentSecurityPolicy: false,
 }));
+
 
 app.use('/static', express.static('./dist/client'));
 

@@ -34,8 +34,6 @@ function AppWrap() {
 		dispatch(saveToken());
 	}, []);
 
-	console.log(process.env.URI);
-	console.log(process.env.CLIENT_ID);
 	return (
 		<>
 			{mounted && (

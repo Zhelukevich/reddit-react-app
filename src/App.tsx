@@ -34,6 +34,8 @@ function AppWrap() {
 		dispatch(saveToken());
 	}, []);
 
+	console.log(process.env.URL);
+
 	return (
 		<>
 			{mounted && (
